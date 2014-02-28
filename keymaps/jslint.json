@@ -1,0 +1,5 @@
+{
+    ".editor": {
+        "cmd-alt-j": "jslint"
+    }
+}

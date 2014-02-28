@@ -1,0 +1,14 @@
+.jslint {
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.jslint address {
+    display: inline;
+    margin-right: 5px;
+    color: red;
+}
+
+.jslint address:after {
+    content: ': '
+}
