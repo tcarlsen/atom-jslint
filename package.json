@@ -1,5 +1,5 @@
 {
-  "name": "jslint",
+  "name": "JSLint",
   "version": "0.2.2",
   "description": "JSLint error reports for your Atom editor",
   "main": "lib/jslint",
