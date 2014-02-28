@@ -10,6 +10,9 @@
   "author": "tcarlsen",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "atom": ">0.50.0"
+  },
   "dependencies": {
     "jslint": "^0.2.11"
   }
