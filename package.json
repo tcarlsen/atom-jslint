@@ -14,6 +14,6 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "jslint": "git://github.com/reid/node-jslint.git"
+    "jslint": "^0.2.11"
   }
 }
