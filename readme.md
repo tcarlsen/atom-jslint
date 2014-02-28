@@ -15,7 +15,7 @@ $ npm install
 
 ## Usage
 
-When inside a JavaScript file hit `cmd-alt-j`.
+When inside a JavaScript file hit `cmd+alt+j` or run `Jslint` from the Command Palette.
 
 ![](https://dl.dropboxusercontent.com/u/2714001/jslint.gif)
 
