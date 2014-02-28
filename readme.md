@@ -6,7 +6,7 @@
 
 When inside a JavaScript file hit `cmd-alt-j`.
 
-![](http://note.io/1etBLCE)
+![](https://dl.dropboxusercontent.com/u/2714001/jslint.gif)
 
 ## License
 
