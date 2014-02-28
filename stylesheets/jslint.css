@@ -3,16 +3,10 @@
     overflow-y: scroll;
 }
 
-.jslint address {
-    display: inline;
-    margin-right: 5px;
-    color: red;
-}
-
-.jslint address:after {
-    content: ': '
-}
-
 .jslint .close {
     margin-top: -5px;
+}
+
+.jslint pre {
+    cursor: pointer;
 }
