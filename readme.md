@@ -1,6 +1,6 @@
 # JSLint
 
-[Atom package](https://atom.io/packages/jslint)
+JSLint error reports for your Atom editor.
 
 ## Setup
 
@@ -15,7 +15,7 @@ $ npm install
 
 ## Usage
 
-When inside a JavaScript file hit `cmd+alt+j` or run `Jslint` from the Command Palette.
+When inside a JavaScript file hit `cmd+alt+j` or run `Jslint` from the Command Palette, to start and update JSLint.
 
 ![](https://dl.dropboxusercontent.com/u/2714001/jslint.gif)
 
