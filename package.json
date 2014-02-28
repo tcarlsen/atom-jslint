@@ -1,9 +1,11 @@
 {
   "name": "jslint",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "JSLint error reports for your Atom editor",
   "main": "lib/jslint",
-  "activationEvents": ["jslint"],
+  "activationEvents": [
+    "jslint"
+  ],
   "repository": "https://github.com/tcarlsen/atom-jslint",
   "author": "tcarlsen",
   "license": "MIT",
