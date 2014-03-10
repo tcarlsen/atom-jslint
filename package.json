@@ -2,7 +2,7 @@
   "name": "jslint",
   "version": "0.3.1",
   "description": "JSLint error reports for your Atom editor",
-  "main": "lib/jslint",
+  "main": "lib/init",
   "activationEvents": [
     "jslint"
   ],
