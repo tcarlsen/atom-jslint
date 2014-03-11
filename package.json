@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "jslint": "^0.2.11",
-    "atom-message-panel": ">=0.1.0"
+    "atom-message-panel": ">=0.1.0",
+    "atom-keymap-plus": "^0.1.0"
   }
 }
