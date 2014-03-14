@@ -1,4 +1,10 @@
 
+0.8.0 / 2014-03-14
+==================
+
+ * adding option to hide if no errors was found
+ * adding option to use fold mode as default
+
 0.7.1 / 2014-03-14
 ==================
 
