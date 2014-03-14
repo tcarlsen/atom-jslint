@@ -1,4 +1,10 @@
 
+0.7.1 / 2014-03-14
+==================
+
+ * adding a little bug icon for the fun of it
+ * updating atom-message-panel to 0.3.0
+
 0.7.0 / 2014-03-13
 ==================
 
