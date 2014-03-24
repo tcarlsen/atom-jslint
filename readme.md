@@ -26,6 +26,7 @@ If you like you can even set it to validate while typing in the package settings
  * Validate on change *(toggle in settings)*
  * Option to hide the error panel if no errors were found *(toggle in settings)*
  * Option to use `fold mode` by default *(toggle in settings)*
+ * Supports `.jslintrc` config files *(project located file will overwrite the global file)*
 
 ## License
 
