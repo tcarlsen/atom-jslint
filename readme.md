@@ -19,7 +19,10 @@ JSlint is by default validating on save (this can be changed in the package sett
 If you like you can even set it to validate while typing in the package settings.
 
 ## Configuration
-JSlint options can be configured via `.jslintrc` config files, located in your home directory *(global options)* and your project root directory *(project specific options)*.
+JSlint options can be configured via `.jslintrc` config files, located in
+
+ * your home directory *(global options)* and 
+ * your project root directory *(project specific options)*.
 
 The `.jslintrc` config files are JSON files see [`.jslintrc-example`](.jslintrc-example) for an example.
 Specifications of the different options can be found in the [JSlint documentation](http://www.jslint.com/lint.html#options).
