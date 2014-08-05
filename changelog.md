@@ -1,5 +1,10 @@
 
-0.10.0 / 2014-05-14 
+0.10.1 / 2014-08-05
+==================
+
+ * fixing an error on windows
+
+0.10.0 / 2014-05-14
 ==================
 
  * adding support for windows and linux
