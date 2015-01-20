@@ -2,17 +2,16 @@
   "name": "jslint",
   "version": "0.10.2",
   "description": "JSLint error reports for your Atom editor",
-  "main": "lib/init",
+  "main": "lib/main",
   "repository": "https://github.com/tcarlsen/atom-jslint",
   "author": "tcarlsen",
   "license": "MIT",
   "private": true,
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.174.0"
   },
   "dependencies": {
-    "jslint": "^0.2.11",
-    "atom-message-panel": "^0.3.0",
-    "atom-keymap-plus": "^0.1.0"
+    "jslint": "^0.7.2",
+    "atom-message-panel": "^1.1.4"
   }
 }
