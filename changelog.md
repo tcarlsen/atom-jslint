@@ -1,4 +1,17 @@
 
+1.0.0 / 2015-01-20
+==================
+
+  * total rewrite
+    * now written i Coffeescript
+    * now supports the new atom API
+    * removing atom-keymap-plus
+    * updating atom-message-panel to 1.1.4
+    * updating jslint to 0.7.2
+  * adding .editorconfig
+  * adding LICENSE
+  * removing static preview
+
 0.10.2 / 2014-10-07
 ===================
 
