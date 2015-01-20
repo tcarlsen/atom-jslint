@@ -19,8 +19,6 @@ module.exports = ->
   messages.clear()
   messages.attach()
 
-  console.log
-
   if atom.config.get("jslint.useFoldModeAsDefault") and messages.summary.css("display") is "none"
     messages.toggle()
 
