@@ -1,6 +1,6 @@
 {MessagePanelView, PlainMessageView, LineMessageView} = require "atom-message-panel"
 config = require("./config")
-jsLint = require("jslint").load("latest")
+jsLint = require("jslint").load atom.config.get("jslint.jslintVersion")
 jsLinter = require("jslint").linter.doLint
 messages = new MessagePanelView
   title: "<span class=\"icon-bug\"></span> JSLint report"
