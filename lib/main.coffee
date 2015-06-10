@@ -39,9 +39,9 @@ module.exports =
     disposables.add atom.workspace.observeTextEditors (editor) ->
       buff = editor.getBuffer()
       disposables.add buff.onDidSave ->
-        linter() if atom.config.get("atom-jslint.validateOnSave") is true
+        linter() if atom.config.get("jslint.validateOnSave") is true
       disposables.add buff.onDidStopChanging ->
-        linter() if atom.config.get("atom-jslint.validateOnChange") is true            
+        linter() if atom.config.get("jslint.validateOnChange") is true
 
   deactivate: ->
     disposables.dispose()
