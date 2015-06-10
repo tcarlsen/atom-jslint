@@ -11,7 +11,7 @@
     "atom": ">0.174.0"
   },
   "dependencies": {
-    "jslint": "^0.7.2",
+    "jslint": "^0.9.0",
     "atom-message-panel": "1.2.4"
   }
 }
