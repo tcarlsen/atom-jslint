@@ -1,4 +1,8 @@
 linter = require "./linter"
+{CompositeDisposable} = require 'atom'
+
+disposables = new CompositeDisposable
+
 module.exports =
   config:
     jslintVersion:
@@ -31,18 +35,13 @@ module.exports =
       onChange: null
 
     atom.commands.add "atom-workspace", "jslint:lint", linter
-    atom.config.observe "jslint.validateOnSave", (value) ->
-      if value is true
-        atom.workspace.observeTextEditors (editor) ->
-          subscriptions.onSave = editor.buffer.onDidSave linter
-      else
-        atom.workspace.observeTextEditors (editor) ->
-          subscriptions.onSave?.dispose()
 
-    atom.config.observe "jslint.validateOnChange", (value) ->
-      if value is true
-        atom.workspace.observeTextEditors (editor) ->
-          subscriptions.onChange = editor.buffer.onDidStopChanging linter
-      else
-        atom.workspace.observeTextEditors (editor) ->
-          subscriptions.onChange?.dispose()
+    disposables.add atom.workspace.observeTextEditors (editor) ->
+      buff = editor.getBuffer()
+      disposables.add buff.onDidSave ->
+        linter() if atom.config.get("jslint.validateOnSave") is true
+      disposables.add buff.onDidStopChanging ->
+        linter() if atom.config.get("jslint.validateOnChange") is true
+
+  deactivate: ->
+    disposables.dispose()
