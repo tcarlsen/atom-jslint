@@ -29,7 +29,7 @@ JSlint options can be configured via `.jslintrc` config files, located in
  * your project root directory *(project specific options)*.
 
 The `.jslintrc` config files are JSON files see [`.jslintrc-example`](.jslintrc-example) for an example.
-Specifications of the different options can be found in the [JSlint documentation](http://www.jslint.com/lint.html#options).
+Specifications of the different options can be found in the [JSlint documentation](http://www.jslint.com/help.html).
 
 
 ## Features
