@@ -42,6 +42,7 @@ Specifications of the different options can be found in the [JSlint documentatio
  * Option to use `fold mode` by default *(toggle in settings)*
  * Choose between different JSLint versions *(select in settings)*
  * Supports `.jslintrc` config files *(project located file will overwrite the global file)*
+ * ES6 support *(you need to select es6 in the JSLint version dropdown and reload Atom)*
 
 ## License
 

@@ -37,12 +37,20 @@ module.exports = ->
     for error in result.errors
       continue if !error
 
-      messages.add new LineMessageView
-        message: error.reason
-        line: error.line
-        character: error.character
-        preview: error.evidence.trim() if error.evidence
-        className: "text-error"
+      if atom.config.get("jslint.jslintVersion") is "es6"
+        messages.add new LineMessageView
+          message: error.message
+          line: error.line
+          character: error.column
+          preview: error.a.trim() if error.a
+          className: "text-error"
+      else
+        messages.add new LineMessageView
+          message: error.reason
+          line: error.line
+          character: error.character
+          preview: error.evidence.trim() if error.evidence
+          className: "text-error"
 
   atom.workspace.onDidChangeActivePaneItem ->
     messages.close()
