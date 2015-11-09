@@ -1,4 +1,12 @@
 
+1.5.0 / 2015-11-09
+==================
+
+  * updating jslint version
+  * adding ES6 support
+  * updating README with es6 support (#27)
+  * updating JSlint documentation link - fixes #39
+
 1.4.0 / 2015-06-10
 ==================
 
