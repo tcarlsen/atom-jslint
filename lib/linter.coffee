@@ -40,8 +40,8 @@ module.exports = ->
       if atom.config.get("jslint.jslintVersion") is "es6"
         messages.add new LineMessageView
           message: error.message
-          line: error.line
-          character: error.column
+          line: error.line + 1
+          character: error.column + 1
           preview: error.a.trim() if error.a
           className: "text-error"
       else
