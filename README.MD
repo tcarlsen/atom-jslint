@@ -1,5 +1,7 @@
 # JSLint
 
+## OBS! This package is no longer maintained. Im using [XO](https://github.com/sindresorhus/xo) full time now
+
 ![](https://img.shields.io/apm/v/jslint.svg)
 ![](https://img.shields.io/apm/dm/jslint.svg)
 ![](https://img.shields.io/apm/l/jslint.svg)
